@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>aemet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngFor="let clima of aemet.getClima()"></ion-list>
+  <div id="tiempo" ></div>
+</ion-content>
